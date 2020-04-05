@@ -13,6 +13,10 @@ public class BaseTests {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
         driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
+
+        WebElement inputElement = driver.findElement(By.linkText("Inputs"));
+        inputElement.click();
+
         driver.manage().window().maximize();
         System.out.println(driver.getTitle());
 
