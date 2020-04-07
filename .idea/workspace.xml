@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3a2142bb-9446-43da-89c1-f2e4cc2f5006" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SecureAreaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SecureAreaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +56,7 @@
       <recent name="$PROJECT_DIR$/recursos" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.LoginTests">
     <configuration name="BaseTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.BaseTests" />
       <module name="testautomation" />
@@ -66,8 +70,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
         <item itemvalue="Application.BaseTests" />
       </list>
     </recent_temporary>
@@ -94,22 +135,22 @@
       <screen x="0" y="22" width="1280" height="774" />
     </state>
     <state x="449" y="331" key="Github.CreateGistDialog/0.22.1280.774@0.22.1280.774" timestamp="1586044743061" />
-    <state width="1237" height="196" key="GridCell.Tab.0.bottom" timestamp="1586126666503">
+    <state width="1237" height="196" key="GridCell.Tab.0.bottom" timestamp="1586286852851">
       <screen x="0" y="22" width="1280" height="774" />
     </state>
-    <state width="1237" height="196" key="GridCell.Tab.0.bottom/0.22.1280.774@0.22.1280.774" timestamp="1586126666503" />
-    <state width="1237" height="196" key="GridCell.Tab.0.center" timestamp="1586126666503">
+    <state width="1237" height="196" key="GridCell.Tab.0.bottom/0.22.1280.774@0.22.1280.774" timestamp="1586286852851" />
+    <state width="1237" height="196" key="GridCell.Tab.0.center" timestamp="1586286852850">
       <screen x="0" y="22" width="1280" height="774" />
     </state>
-    <state width="1237" height="196" key="GridCell.Tab.0.center/0.22.1280.774@0.22.1280.774" timestamp="1586126666503" />
-    <state width="1237" height="196" key="GridCell.Tab.0.left" timestamp="1586126666502">
+    <state width="1237" height="196" key="GridCell.Tab.0.center/0.22.1280.774@0.22.1280.774" timestamp="1586286852850" />
+    <state width="1237" height="196" key="GridCell.Tab.0.left" timestamp="1586286852850">
       <screen x="0" y="22" width="1280" height="774" />
     </state>
-    <state width="1237" height="196" key="GridCell.Tab.0.left/0.22.1280.774@0.22.1280.774" timestamp="1586126666502" />
-    <state width="1237" height="196" key="GridCell.Tab.0.right" timestamp="1586126666503">
+    <state width="1237" height="196" key="GridCell.Tab.0.left/0.22.1280.774@0.22.1280.774" timestamp="1586286852850" />
+    <state width="1237" height="196" key="GridCell.Tab.0.right" timestamp="1586286852851">
       <screen x="0" y="22" width="1280" height="774" />
     </state>
-    <state width="1237" height="196" key="GridCell.Tab.0.right/0.22.1280.774@0.22.1280.774" timestamp="1586126666503" />
+    <state width="1237" height="196" key="GridCell.Tab.0.right/0.22.1280.774@0.22.1280.774" timestamp="1586286852851" />
     <state x="319" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1585778093256">
       <screen x="0" y="22" width="1280" height="774" />
     </state>

@@ -1,13 +1,20 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class SecureAreaPage {
 
     private WebDriver driver;
+    private By statusAlert = By.id("flash");
 
-    public void SecureAreaPage(WebDriver driver){
+    public SecureAreaPage(WebDriver driver){
         this.driver = driver;
+    }
+
+    //obtenemos el texto de exito de la panta de login exitoso
+    public String getAlertText(){
+        return driver.findElement(statusAlert).getText();
     }
 
 }
