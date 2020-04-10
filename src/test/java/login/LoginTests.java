@@ -11,7 +11,7 @@ public class LoginTests extends BaseTests {
 
     @Test
     public void testSuccessfulLogin(){
-        LoginPage loginPage = homgePage.clickFormAuthentication();
+        LoginPage loginPage = homgePage.clickFormAuthenticationLink();
         loginPage.setUsername("tomsmith");
         loginPage.setPassword("SuperSecretPassword!");
         SecureAreaPage secureAreaPage = loginPage.clickLoginButton();
